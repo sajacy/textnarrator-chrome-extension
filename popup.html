@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Narrator Extension Popup</title>
+	<style type="text/css">
+		button {
+			padding: 0px;
+			border: 1px solid rgb(200,200,200);
+			-webkit-border-radius: 5px;
+			-webkit-appearance: button;
+			-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+		}
+		button img {
+			vertical-align: bottom;
+		}
+		
+		#advancedlink {
+			font-family: Calibri, Verdana, sans serif;
+			font-size: .6em;
+		}
+		
+		#advancedsection {
+			display: none;
+		}
+	</style>
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    <script src="narrate.js"></script>
+	<script src="popup.js"></script>
+  </head>
+  <body>
+	<button id="narrate"><img src="img/speak32.png" title="Speak" alt="Speak"></button>
+	<button id="stop"><img src="img/stop32.png" title="Stop" alt="Stop"></button>
+	<button id="pauseresume"><img id="pauseresume_img" src="img/pause32.png" title="Pause/Resume" alt="Pause/Resume"></button>
+	<div>
+		<a id="advancedlink" href="#">Settings</a>
+	</div>
+	<div id="advancedsection">
+		<hr>
+		Sample Text
+		<textarea rows="5" cols="30" id="testText">Object-oriented programming is an exceptionally bad idea which could only have originated in California. -Edsger Djikstra</textarea>
+		<button id="testbutton"><div style="padding:5px">Test</div></button>
+	</div>
+  </body>
+</html>
+
