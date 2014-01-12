@@ -1,4 +1,4 @@
-Chrome Narrator
+Text Narrator - Chrome Extension
 =======================
 This extension uses Chrome's Text-to-Speech API to read text.
 
