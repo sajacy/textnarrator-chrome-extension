@@ -1,4 +1,4 @@
-Text Narrator - Chrome Extension
+![Icon](img/speak32.png) Text Narrator - Chrome Extension
 =======================
 This extension uses Chrome's Text-to-Speech API to read text.
 
