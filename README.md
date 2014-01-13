@@ -2,6 +2,7 @@
 =======================
 This extension uses Chrome's Text-to-Speech API to read text.
 
+[Install it](https://chrome.google.com/webstore/detail/text-narrator/gmachijmpknamgdoelcmkcepbjilhfoe) at the Chrome Web Store.
 
 ### Version History
 
